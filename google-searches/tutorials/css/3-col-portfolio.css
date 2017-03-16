@@ -1,0 +1,48 @@
+/*!
+ * Start Bootstrap - 3 Col Portfolio (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+ @font-face {
+  font-family: 'Apercu-Medium';
+  src: url('http://rebecca-ricks.com/tutorials/fonts/Apercu/Apercu-Medium.otf') format('truetype');
+ }
+
+ @font-face {
+  font-family: 'Apercu-Light';
+  src: url('http://rebecca-ricks.com/tutorials/fonts/Apercu/Apercu-Light.otf') format('truetype');
+ }
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+h1 {
+  font-size: 35px;
+  text-align: left;
+  font-family: Apercu-Medium;
+}
+
+h3 {
+  font-size: 15px;
+  text-align: left;
+  font-family: Apercu-Light;
+}
+
+a {
+  color: #333;
+}
+
+a:hover {
+  font-style:italic;
+  color: #333;
+}
+
+.portfolio-item {
+    margin-bottom: 50px;
+}
+
+footer {
+    margin: 50px 0;
+}
