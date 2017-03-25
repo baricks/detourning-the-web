@@ -22,7 +22,7 @@ def captionImage(filename, action, date, location):
 def downloadImage(coords, action, date, location):
     # print "downloading image"
     for k in range(130,200,5):
-        url = "https://maps.googleapis.com/maps/api/streetview?size=800x500&location=" + coords + "&heading=" + str(k) + "&pitch=-1&scale=2&key=" + YOURAPIKEY
+        url = "https://maps.googleapis.com/maps/api/streetview?size=800x500&location=" + coords + "&heading=" + str(k) + "&pitch=-1&scale=2"
         print url
 
         filename = coords + ("-") + str(k) + '.png'

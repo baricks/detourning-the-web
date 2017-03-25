@@ -1,10 +1,10 @@
-import urllib2
+import urllib
 import re
 import sys
 from collections import defaultdict
 from random import random
 
-archive = open("breitbart.txt")
+archive = open("friends.txt")
 titles = archive.read().split("\n")
 archive.close()
 markov_map = defaultdict(lambda:defaultdict(int))
@@ -51,4 +51,4 @@ while len(sentences) < 100:
         sentences.append(sentence)
 
 for sentence in sentences:
-    print sentence
+    print (sentence)
